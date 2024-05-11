@@ -9,6 +9,8 @@ import {
 } from "../utils/appConstants";
 import {FaWhatsapp } from "react-icons/fa6";
 import CarouselView from "../ui/CarouselView";
+import { homeMainCarouselViewData } from "../data/homePageData";
+
 
 function HomeMain() {
   return (
@@ -22,9 +24,9 @@ function HomeMain() {
             </label>
           </div>
         </div>
-        <div className="flex px-4 pt-4  font-semibold">
+        <div className="flex px-4 pt-4  font-semibold flex-col ">
           <div>
-            <CarouselView />
+            <CarouselView dataArray={homeMainCarouselViewData} />
           </div>
           <div className="flex flex-col gap-y-4">
             <h1 className="text-balance font-mono text-2xl">
