@@ -1,1 +1,0 @@
-# dootha_promotions
